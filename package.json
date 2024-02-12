@@ -1,0 +1,20 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --open=./public/index.html",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "live-server": "^1.2.2"
+  },
+  "type": "module",
+  "jest": {
+    "transform": {}
+  }
+}

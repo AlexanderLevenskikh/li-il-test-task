@@ -1,0 +1,17 @@
+.list {
+    max-width: 800px;
+    list-style: none;
+}
+
+.item {
+    padding: 10px 0;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.service {
+    font-style: italic;
+}
+
